@@ -1,6 +1,7 @@
 require 'minitest/autorun'
 require 'minitest/pride'
 require './lib/horse'
+require 'pry'
 
 class HorseTest < Minitest::Test
   def test_it_exists
