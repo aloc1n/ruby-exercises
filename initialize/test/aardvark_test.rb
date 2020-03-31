@@ -1,6 +1,7 @@
 require 'minitest/autorun'
 require 'minitest/pride'
 require './lib/aardvark'
+require 'pry'
 
 class AardvarkTest < Minitest::Test
   def test_it_exists
