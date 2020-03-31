@@ -2,6 +2,7 @@ gem 'minitest', '~> 5.2'
 require 'minitest/autorun'
 require 'minitest/pride'
 require_relative '../lib/vampire'
+require 'pry'
 
 class VampireTest < Minitest::Test
   def test_it_has_a_name
