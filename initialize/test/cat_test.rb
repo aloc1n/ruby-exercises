@@ -1,6 +1,7 @@
 require 'minitest/autorun'
 require 'minitest/pride'
 require './lib/cat'
+require 'pry'
 
 class CatTest < Minitest::Test
   def test_it_exists
