@@ -12,7 +12,7 @@ class Wizard
   end
 
   def incantation(root_power)
-    p "sudo #{root_power}"
+    "sudo #{root_power}"
   end
 
   def rested?
@@ -21,7 +21,7 @@ class Wizard
 
   def cast
     @spell_count += 1
-    p "MAGIC MISSILE!"
+    "MAGIC MISSILE!"
   end
 
 end
