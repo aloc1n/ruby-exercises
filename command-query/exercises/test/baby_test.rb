@@ -14,5 +14,4 @@ class BabyTest < Minitest::Test
     baby.nap
     refute baby.tired?, "Naps help combat drowsiness."
   end
-
 end

@@ -2,7 +2,7 @@ class Baby
   attr_reader :tired
 
   def initialize
-    @tired = tired
+    @tired = true
   end
 
   def tired?
@@ -10,6 +10,6 @@ class Baby
   end
 
   def nap
-    @tired = "Naps help combat drowsiness."
+    @tired = false
   end
 end
