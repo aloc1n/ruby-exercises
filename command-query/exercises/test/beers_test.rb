@@ -20,7 +20,6 @@ class BeersTest < Minitest::Test
   end
 
   def test_restocking
-    skip
     beers = Beers.new
 
     43.times { beers.take_one_down_and_pass_it_around }
